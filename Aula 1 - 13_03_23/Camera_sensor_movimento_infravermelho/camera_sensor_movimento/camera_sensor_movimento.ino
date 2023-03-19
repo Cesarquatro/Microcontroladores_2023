@@ -50,8 +50,8 @@ int posMovimento;         //Variavel que será para passar o angulo para o servo
   Este vídeo explica de forma visual e muito clara, porém está em inglês:
   https://youtu.be/BYKQ9rk0FEQ
   */
-unsigned long tempoAnteriorMov;
-unsigned long tempoAnterior;
+unsigned long tempoAnteriorMov; //tempo anterior movimento
+unsigned long tempoAnterior;    //tempo anterior(para leitura dos sensores)
 
 void setup() {
   //Define as portas dos sensores como ENTRADA
