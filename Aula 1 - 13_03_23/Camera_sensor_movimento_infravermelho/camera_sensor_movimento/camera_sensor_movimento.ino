@@ -1,5 +1,5 @@
 /*
- * Doscente: Marilza Antunes de Lemos
+ * Docente: Marilza Antunes de Lemos
  * Discente: Cesar Augusto Mendes Cordeiro da Silva
  * Aula 1 - Camera de seguranca com 3 sensores PIR
  * 13/03/2023
@@ -8,7 +8,7 @@
 //Importando a biblioteca do servo motor
 #include <Servo.h>
  
-//Definindo as porttas dos sensores
+//Definindo as portas dos sensores
 #define sensorEsquerda 8
 #define sensorCentro   7
 #define sensorDireita  6
@@ -59,7 +59,7 @@ void setup() {
   pinMode(sensorCentro,   INPUT);
   pinMode(sensorDireita,  INPUT);
 
-  //[Da biblioteca]Associar o objeto 'Servo' a ao pino digital pinServo
+  //[Da biblioteca]Associar o objeto 'Servo' ao pino digital pinServo
   motor.attach(pinServo);
   
   //Muda a posição do servo para posAtual
