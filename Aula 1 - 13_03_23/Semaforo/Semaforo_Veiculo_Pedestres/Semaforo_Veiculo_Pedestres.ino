@@ -1,5 +1,5 @@
 /*
- * Doscente: Marilza Antunes de Lemos
+ * Docente: Marilza Antunes de Lemos
  * Discente: Cesar Augusto Mendes Cordeiro da Silva
  * Aula 1 - Semaforo
  * 13/03/2023
