@@ -59,13 +59,13 @@ void setup() {
   pinMode(sensorCentro,   INPUT);
   pinMode(sensorDireita,  INPUT);
 
-  //[Da biblioteca]Define a portaa dos servo como SAIDA
+  //[Da biblioteca]Associar o objeto 'Servo' a ao pino digital pinServo
   motor.attach(pinServo);
   
-  //Coloca o servo na posição CENTRO no início o código
+  //Muda a posição do servo para posAtual
   motor.write(posAtual);
 
-  //
+  //Define a posMovimento como a posAtual
   posMovimento = posAtual;
 
   //Inicia a comunicação serial para fazer debug no monitor
