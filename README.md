@@ -1,5 +1,7 @@
 # Microcontroladores_2023
-Este repositório foi feito para guardar os trabalhos da matéria de Microcontrolares da turma XIX de Engenharia de Controle e Automação - Unesp Sorocaba
+Este repositório foi feito para guardar os trabalhos da matéria de Microcontrolares da turma XIX de Engenharia de Controle e Automação - Unesp Sorocaba.
+
+<img src="https://github.com/Cesarquatro/Microcontroladores_2023/blob/main/assets/Esp32DevKitV1.png?raw=true">
 
 **Tabela dos pinos do ESP32 DEVKIT VI - DOIT**
 |  **Pino**  	|  Mnemônico 	|                                                                                                                                                                                         Descrição                                                                                                                                                                                        	|
